@@ -33,3 +33,29 @@ console.log(d);
 
 
 // 문자열 함수
+var abc = "I am Iron man";
+
+// indexOf
+// 문자열의 특정 값이 시작되는 위치
+// console.log(abc.indexOf("man"));
+// console.log(abc.indexOf("I"));
+
+// slice
+// 문자열의 일부를 잘라낼 때
+// console.log(abc.slice(0, 3));
+// console.log(abc.slice(0, 4));
+
+// toUpperCase(), toLowerCase()
+console.log(abc.toUpperCase());
+console.log(abc.toLowerCase());
+
+// startsWith(), endsWith()
+var efg = 'This is my car.';
+console.log(efg.startsWith('Th'));
+console.log(efg.startsWith('th'));
+
+console.log(efg.endsWith('car.'));
+
+
+// includes()
+console.log(efg.includes('is'));
